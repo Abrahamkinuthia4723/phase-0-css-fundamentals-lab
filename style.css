@@ -4,7 +4,7 @@ body {
   margin: 0%;
 }
 h1 {
-  color: black;
+  color: red;
   text-align: center;
 }
 div {
@@ -19,11 +19,14 @@ div {
 
 }
 nav {
-  text-align: center;
-  display: inline block;
   padding-left: 10px;
   padding-right: 10px;
-  
+  flex: auto;
+  align-items: center;
+  font-size: x-large;
+  display: inline-block;
+  padding-left: 33%;
+
 }
 #op {
   padding-left: 10%;
